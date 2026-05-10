@@ -1,5 +1,5 @@
 import tkinter as gui
-import prueba_import
+import personajes
 
 print("bienvenido a limbus python, este es un  fanmade hecho con python al 100%, estamos recien creando todo")
 print("escoge una opcion:" \
@@ -27,8 +27,3 @@ elif menu_isi == 3:
     
 else:
     print(f"no existe la opción{menu_isi}")
-
-
-ejecutar_prueba = input("yes?")
-if ejecutar_prueba == "y":
-    prueba_import.mensaje()
