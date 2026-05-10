@@ -29,8 +29,6 @@ else:
     print(f"no existe la opción{menu_isi}")
 
 
-ejecutar_prueba = input("seso?")
+ejecutar_prueba = input("yes?")
 if ejecutar_prueba == "y":
     prueba_import.mensaje()
-
-print("este es un cambio")
