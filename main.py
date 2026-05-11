@@ -1,3 +1,4 @@
+#importamos modulos
 import tkinter as gui
 import personajes
 
