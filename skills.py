@@ -11,4 +11,4 @@ def golpe():
                 print("HEADS")
                 poder_base = poder_base + 5
                 print(clash_power_Jskill1 + coin_powerJskill1)
-                muñeco_entrenamiento.HP = muñeco_entrenamiento.HP - (poder_base - muñeco_entrenamiento.DEF) //((poder_base - muñeco_entrenamiento.DEF) + 25) *100
+                enemigos.enemigo.hp = enemigos.enemigo.hp
