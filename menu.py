@@ -33,6 +33,8 @@ def menu():
         print("                                               ")
         print("                                               ")
 
+        print("hola")
+
         selecMenu = str(input("escoge a donde ir: "))
         if selecMenu == "config" or "Config":
             config()
