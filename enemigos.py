@@ -1,5 +1,5 @@
 class enemigo:
-    def __init__(self,nombre,nivel,tipo,defensa,Mhp,hp,Msp,sp,skill1,skill2,skill3,skillDef,pasiva):
+    def __init__(self,nombre,nivel,tipo,defensa,Mhp,hp,Msp,sp, estados,skill1,skill2,skill3,skillDef,pasiva):
         self.nombre = nombre
         self.nivel = nivel
         self.tipo = tipo
@@ -8,6 +8,7 @@ class enemigo:
         self.hp = hp
         self.Msp = Msp
         self.sp = sp
+        self.estados = estados
         self.skill1 = skill1
         self.skill2 = skill2
         self.skill3 = skill3
