@@ -1,3 +1,5 @@
-apenas tiene un menu full texto, no entiendo quien quiere descargar esto tan temprano lol
+ver 0.0.0.1
+el menú está terminado, el primer relase está hecho en base a este evento, estoy aún checando lo que vendría implicando ciertas  y
+creo que quiza pueda traducir el proyecto a pygame, pero sería lo último que haré al finalizar el proyecto base.
 
-aunque es media chida la idea, apenas se lo que hago, aya el que quiera
+sobre lo de tkinter mencionado antes, no hare eso por el momento hasta terminar la lógica general, luego traduciré el juego para tkinter para que funcione bien el juego antes de hacer alguna idiotez.
