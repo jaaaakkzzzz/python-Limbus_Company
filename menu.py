@@ -20,35 +20,35 @@ def plantilla ():
 
 
 def menu():
-        print("  |Config| |Account| |Messages| |Patch notes|  ")
-        print("  ___________________________________________  ")
-        print(" |----(                          )-----------| ")
-        print(" |----(   Limbus                 )-----------| ")
-        print(" |----(   Company                )-----------| ")
-        print(" |----(                          )-----------| ")
-        print(" |----(    Python                )-----------| ")
-        print(" |----(    Edition     :D        )-----------| ")
-        print(" _____(__________________________)___________| ")
-        print("   |Sinners| |Drive| |Extraction| |Dispense|   ")
+        print("  |1.Config| |2.Account| |3.Messages| |4.Patch notes|  ")
+        print("  _____________________________________________________")
+        print(" |----(                          )--------------------|")
+        print(" |----(   Limbus                 )--------------------| ")
+        print(" |----(   Company                )--------------------| ")
+        print(" |----(                          )--------------------| ")
+        print(" |----(    Python                )--------------------| ")
+        print(" |----(    Edition     :D        )--------------------| ")
+        print(" _____(__________________________)____________________| ")
+        print("   |5.Sinners| |6.Drive| |7.Extraction| |8.Dispense|   ")
         print("                                               ")
         print("                                               ")
 
-        selecMenu = str(input("escoge a donde ir: "))
-        if selecMenu == "config" or "Config":
+        selecMenu = int(input("escoge a donde ir: "))
+        if selecMenu == 1:
             config()
-        elif selecMenu == "account" or "Account":
+        elif selecMenu == 2:
             account()
-        elif selecMenu == "messages" or "Messages":
+        elif selecMenu == 3:
             messages()
-        elif selecMenu == "patch notes" or "Patch notes":
+        elif selecMenu == 4:
             patchNotes()
-        elif selecMenu == "sinners" or "Sinners":
+        elif selecMenu == 5:
             sinners()
-        elif selecMenu == "drive" or "Drive":
+        elif selecMenu == 6:
             drive()
-        elif selecMenu == "extraction" or "Extraction":
-            extraction()
-        elif selecMenu == "dispense" or "Dispense":
+        elif selecMenu == 7:
+            gacha.gacha()
+        elif selecMenu == 8:
             dispense()
 
 def config():
@@ -157,18 +157,16 @@ def drive():
     print("|                                      |")
     print("-______________________________________-")
 
-    drive_select = str(input("selecciona opción o /volver/ para volver al menú"))
+    drive_select = int(input("selecciona opción o /67/ para volver al menú: "))
 
-    if drive_select == "battle test" or "Battle test":
+    if drive_select == 1:
         BtlT.batalla()
-    elif drive_select == "cantos" or "Cantos":
+    elif drive_select == 2:
         print("aun no hay")
         drive()
-    elif drive_select == "volver" or "Volver":
+    elif drive_select == 67:
         menu()
 
-def extraction():
-    gacha.gacha()
 
 def dispense():
     print(" ______________________________________")
@@ -184,7 +182,7 @@ def dispense():
     print("|                                      |")
     print("-______________________________________-")
     goback = str(input("ir al menu?  (y)"))
-    if goback == "y" or "Y":
+    if goback == "y":
         menu()
 
 menu()
